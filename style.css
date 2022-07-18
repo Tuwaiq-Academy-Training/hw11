@@ -1,0 +1,247 @@
+
+
+input[type=checkbox]{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+  
+  label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 110px;
+    height: 50px;
+    background: grey;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+  }
+  
+  label:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+  }
+  
+  input:checked + label {
+    background: #bada55;
+  }
+  
+  input:checked + label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+  }
+  
+  label:active:after {
+    width: 130px;
+  }
+
+
+
+
+
+body {
+    background: #2a2a2a;
+    color: #FFFFFF;
+}
+
+.main-body {
+    padding-left: 280px;
+}
+
+ .breadcrumb {
+     height: 50px;
+ }
+
+ .side-bar {
+position: fixed;
+left: 0;
+bottom: 1;
+top:50;
+width: 150px;
+padding-left: 8px;
+height: 100vh;
+ }
+
+ .sidebar-link {
+     height: 50px;
+     display: grid;
+     grid-template-rows: 1fr 2fr;
+     grid-template-columns: 1fr 1fr 1fr 1fr ;
+     gap: 8px;
+
+     align-items: center;
+ }
+
+ .home{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 11px;
+    /* identical to box height, or 100% */
+    
+    letter-spacing: 1.5px;
+    
+    color: #808191;
+    
+    mix-blend-mode: normal;
+    opacity: 0.5;
+ }
+
+ .line { 
+    height: 1px;
+    background: rgb(64, 63, 63);
+ }
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+
+
+  
+  .skateboard {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 20px;
+margin-right: 140px;
+  }
+ .search-bar {
+    opacity: 0.1;
+    border-radius: 10px;
+    width: 500px;
+    height: 38px;
+    margin-right: 300px;
+    
+ }
+
+
+
+.fafa-icon {
+    margin-left: -355px;
+    margin-right: 380px;
+}
+
+ .thomas-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;    
+    letter-spacing: 0.5px;
+ }
+
+ .discover-images {
+     display: grid;
+     position: relative;
+     grid-template-columns: 1fr 1fr;
+     gap: 14px;
+     margin-bottom: 40px;
+ }
+
+.first-image {
+    display: inline-block;
+    height: 320px;
+    width: 625px ;
+    background-image: url("./image\ 1.png");
+    border-radius: 18px;
+}
+
+.second-image {
+    background-image: url("./image\ 3.png");
+    height: 320px;
+    width: 350px;
+    display: inline-block;
+    border-radius: 18px;
+}
+
+.jumbing {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+letter-spacing: 0.3px;
+padding-left: 30px;
+padding-top: 15px;
+}
+
+.skate-small-image {
+    float: left;
+    border-radius: 14px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.jumping2 {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+letter-spacing: 0.3px;
+padding-left: 30px;
+padding-top: 20px;
+}
+
+.tony-andrew {
+    padding-left: 30px;
+    line-height: 1.3px;
+}
+
+.most-watched-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.views-most-watched {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+letter-spacing: 0.5px;
+
+color: #808191;
+}
+
+.name-most-watched {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 13px;
+letter-spacing: 0.5px;
+
+color: #B7B9D2;
+
+mix-blend-mode: normal;
+}
