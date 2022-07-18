@@ -1,0 +1,117 @@
+body{
+    background-color: #E5E5E5; ;
+}
+.btn{
+  border-style: none;
+} 
+  .dark-mode {
+    background-color: rgb(90, 88, 88);
+    color: white;
+  }
+  ul{
+    list-style: none;
+    display: flex;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+  }
+  .nav-link{
+    display: flex;
+    justify-content: space-evenly;
+    width: 15vw;
+ 
+  }
+  #mySearch {
+    width: 50%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+    border-radius: 18px;
+  } 
+  
+  .img{
+ border-radius: 50%;
+  }
+  .img1{
+    width: 25px;
+  }
+.header1{
+   
+    display:table-row-group;
+    
+    
+}
+.title{
+    font-size: small;
+    margin: 2rem 2rem;
+}
+.c1{
+    list-style: none;
+    color: black;
+  padding: 10px ;
+}
+.hr{
+    width: 3cm;
+}
+#list-example{
+    margin: 2rem 2rem;
+    position: ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .menu{
+  color: #808191;
+} */
+
+
+
+
+
+  /* Style the search box */
+/* #mySearch {
+    width: 50%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+    border-radius: 18px;
+  } */
+  
+  /* Style the navigation menu
+  #myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 50px;
+  }
+  
+  /* Style the navigation links */
+  /* #myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    display: block
+  }
+  
+  #myMenu li a:hover {
+    background-color: #eee;
+  } */ 
+  

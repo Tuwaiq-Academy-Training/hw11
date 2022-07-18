@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW</title>
+    <!-- CSS only -->
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h3>skateboard</h3>
+        <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+        <ul>
+            <div class=" nav-link">
+
+                <li> <img class="img" src="./image 14.png" alt=""></li>
+                <li><a  class="nav-link1 dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Thomas</a></li>
+                <li> <button class="btn "> <img class="img1" src="./icons8-notification-50.png" alt=""></button></li>
+            </div>
+        </ul>
+        
+    </header>
+    <header class="header1">
+        <h4 class="title">MENU</h4>
+        <div id="list-example" class=" d-flex flex-column">
+            <a class="c1"href="#item-1" >Discover</a>
+            <a class="c1"href="#item-1">Trending</a>
+            <a class="c1"href="#item-2">Streaming</a>
+            <a class="c1"href="#item-3">Playlist</a>
+            <a class="c1"href="#item-4">Bookmark</a>
+            <div class="hr"><hr></div>
+          </div>
+          <h4 class="title">CATEGORY</h4>
+          <div id="list-example" class=" d-flex flex-column">
+              <a class="c1"href="#item-1" >Live Stream</a>
+              <a class="c1"href="#item-1">Tutoral</a>
+              <a class="c1"href="#item-2">Compeetition</a>
+              <a class="c1"href="#item-3">community</a>
+              <div class="hr"><hr></div>
+            </div>
+            <button class="btn" onclick="myFunction()">  <img src="icons8-do-not-disturb-ios-30.png" alt=""></button>
+    </header>
+    <section>
+        
+    </section>
+<!-- 
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+
+<ul id="myMenu" class="menu">
+  <li><a href="#">HTML</a></li>
+  <li><a href="#">CSS</a></li>
+  <li><a href="#">JavaScript</a></li>
+  <li><a href="#">PHP</a></li>
+  <li><a href="#">Python</a></li>
+  <li><a href="#">jQuery</a></li>
+  <li><a href="#">SQL</a></li>
+  <li><a href="#">Bootstrap</a></li>
+  <li><a href="#">Node.js</a></li>
+</ul>
+<hr> -->
+<script>
+    function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+</script>
+</body>
+</html>
