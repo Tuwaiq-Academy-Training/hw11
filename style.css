@@ -54,15 +54,17 @@ body {
 
 .continar {
     display: flex;
-    /* grid-template-columns: 20% 80%; */
-    justify-items: center;
+    justify-items: flex-start;
+    justify-content: space-between;
     /* gap: 20px; */
+
 }
 
 .side-content {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+    margin-right: 5%;
 }
 
 .heading {
