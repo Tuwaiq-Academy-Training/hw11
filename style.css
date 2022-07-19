@@ -1,0 +1,19 @@
+body {
+    background: #1F1D2B;
+    color: #FFFFFF;
+}
+
+.search-bar {
+   background-image: url("Group\ 157.svg"); 
+   opacity: 0.2;
+   background-repeat: no-repeat;
+   background-position: center;
+   border-radius: 10px;
+   width: 690px;
+   height: 48px;
+   top: 100px;
+   margin-right: 1600px;
+   display: grid;
+}
+
+
