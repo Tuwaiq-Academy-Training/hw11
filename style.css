@@ -5,7 +5,7 @@ body{
   border-style: none;
 } 
   .dark-mode {
-    background-color: rgb(90, 88, 88);
+    background-color: rgb(52, 50, 50);
     color: white;
   }
   ul{
@@ -40,8 +40,7 @@ body{
 .header1{
    
     display:table-row-group;
-    
-    
+
 }
 .title{
     font-size: small;
@@ -57,8 +56,61 @@ body{
 }
 #list-example{
     margin: 2rem 2rem;
-    position: ;
+  
 }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    position: relative;
+    bottom:500px;
+    left: 100px;
+    margin: 15px ;
+    border-radius: 18px ;
+}
+.card1{
+    position: relative;
+    
+    bottom:500px;
+    left: 100px;
+    margin: 15px ;
+    background: #242730;
+border-radius: 20px;
+color: white;
+
+}
+.card-img-top{
+    border-radius: 18px 18px 0px 0px;   
+}
+.card-body{
+    position: relative;
+
+}
+.card-img{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top:300px;
+    right: 100px;
+    border-radius: 50%;
+    width: 70px;
+}
+.card2, .card3, .card4, .card1{
+    position: relative;
+    bottom:500px;
+    left: 100px;
+    margin: 15px ;
+    border-radius: 18px ;   
+    background: #242730;
+    border-radius: 20px;
+    color: white;
+    width: 250px;
+
+}
+
 
 
 
