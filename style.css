@@ -279,9 +279,16 @@ input:checked+.slider:before {
     gap: 10px;
 
 }
+.cent-img{
+    display: flex;
+    justify-content: end;
+    margin-top: -10%;
+    margin-right: 5%;
+}
 .content-photo{
     margin-left: 10px;
     padding: 10px;
+    margin-top: -12%;
 }
 
 .head3 {
@@ -301,6 +308,7 @@ input:checked+.slider:before {
 .card-p-p{
     color: white;
     width: 19ch;
+    font-size: 14px;
 }
 .card-img{
     border-radius: 20px 20px 0px 0px;
