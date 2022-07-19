@@ -1,0 +1,145 @@
+Start Variables
+:root {
+    --main-color: #10cab7;
+    --secondary-color: #25373f;
+    --section-padding: 60px;
+    --section-background: #f6f6f6;
+    --main-duration: 0.5s;
+  }
+  /* End Variables */
+  /* Start Global Rules */
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Work Sans", sans-serif;
+    background: #2a2a2a;
+    color: #FFFFFF;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 15;
+
+  }
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Small */
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  /* End Global Rules */
+.sidebar{
+  flex-direction: column-reverse;
+justify-content: space-between;
+
+  margin: 5rem;
+}
+.link_name{
+  display: flex;
+  
+  width: 100vh;
+
+
+ 
+}
+.nav-1 .link_name{
+  position: relative;
+  width: 20px;
+height: 80px;
+left: 40px;
+top: 0px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+letter-spacing: 0.3px;
+
+color: #808191;
+
+
+}
+  .search {
+    width: 625px;
+    background: #ffffff;
+    opacity: 0.1;
+    border-radius: 10px;
+    margin-left: 300px;
+  }
+  .logo{
+margin-left: 50px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 20px;
+
+color: #FFFFFF;
+  }
+  .home{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 11px;
+
+letter-spacing: 1.5px;
+
+color: #808191;
+
+mix-blend-mode: normal;
+opacity: 0.5;
+  }
+.img1 {
+  position:relative;
+   left:250px;
+   top:-750px;
+  }
+  .how{
+    position:relative;
+    left:280px;
+    top:-1150px;
+  }
+  .img2{
+   
+    position:relative;
+    top:-1410px;
+    left: 900px;
+  }
+
+  .how2{
+    position:relative;
+    top:-1750px;
+    left: 1000px;
+  }
+  .card{
+    position: relative;
+    left: 300px;
+    top: -1600px;
+  }
+
+
+
