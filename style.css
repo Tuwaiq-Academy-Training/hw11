@@ -1,0 +1,177 @@
+body {
+    background:#1B2430;
+    color: #FFFFFF;
+}
+.discover-body {
+    padding-left: 270px;
+}
+.discover-images {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin-bottom: 40px;
+}
+
+
+.first-image {
+    display: inline-block;
+    height: 320px;
+    width: 625px ;
+    background-image: url("./image\ 1.png");
+    border-radius: 18px;
+}
+.breadcrumb {
+    height: 50px;
+}
+.nav-menu{
+    position: fixed;
+left: 0;
+bottom: 1;
+top:50;
+width: 150px;
+padding-left: 8px;
+height: 100vh;
+
+}.nav-menu-link{
+font-family: 'Poppins';
+font-style: normal;
+  height: 50px;
+  display: grid;
+  grid-template-rows :1fr 2fr;
+  grid-template-columns:2fr 2fr 2fr 2fr ;
+  gap: 7px;
+  align-items: center;
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    
+  }
+  
+
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "\00a0";
+  }
+  
+
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+
+.skateboard {
+    line-height: 20px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+margin-right: 140px;
+  }
+
+  .search-bar {
+    opacity: 0.1;
+    border-radius: 10px;
+    width: 500px;
+    height: 38px;
+    margin-right: 300px;
+    background: #FFFFFF;
+    
+ }
+
+
+ .thomas-name {
+    /* norahmansour*/
+
+    /* position: absolute;
+height: 13px;
+left: 86.94%;
+right: 9.17%;
+top: calc(50% - 13px/2 - 471.5px); */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;    
+    letter-spacing: 0.5px;
+    /* color: #FFF; */
+ }
+ .second-image {
+    background-image: url("./image 3.png");
+    height: 320px;
+    width: 350px;
+    display: inline-block;
+    border-radius: 18px;
+}
+
+.text {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+letter-spacing: 0.3px;
+padding-left: 30px;
+padding-top: 15px;
+}
+.text2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+letter-spacing: 0.3px;
+padding-left: 30px;
+padding-top: 20px;
+}
+
+.tony-andrew {
+    padding-left: 30px;
+    line-height: 1.3px;
+}
+
+.most-watching {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* justify-items: ;
+    grid-template-rows: auto; */
+}
+.V-watched {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+letter-spacing: 0.5px;
+
+color: #808191;
+}.NM-watching{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+   
+    letter-spacing: 0.5px;
+    color: #B7B9D2;
+    mix-blend-mode: normal;
+}
+/* }.card-style{
+
+    border-radius: 10%;
+    width: 180px;
+} */
+/* }.dark-mode {
+    background-color:white;
+    color:black;
+  } */
+
