@@ -1,0 +1,169 @@
+body{
+    background-color: #E5E5E5; ;
+}
+.btn{
+  border-style: none;
+} 
+  .dark-mode {
+    background-color: rgb(52, 50, 50);
+    color: white;
+  }
+  ul{
+    list-style: none;
+    display: flex;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+  }
+  .nav-link{
+    display: flex;
+    justify-content: space-evenly;
+    width: 15vw;
+ 
+  }
+  #mySearch {
+    width: 50%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+    border-radius: 18px;
+  } 
+  
+  .img{
+ border-radius: 50%;
+  }
+  .img1{
+    width: 25px;
+  }
+.header1{
+   
+    display:table-row-group;
+
+}
+.title{
+    font-size: small;
+    margin: 2rem 2rem;
+}
+.c1{
+    list-style: none;
+    color: black;
+  padding: 10px ;
+}
+.hr{
+    width: 3cm;
+}
+#list-example{
+    margin: 2rem 2rem;
+  
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    position: relative;
+    bottom:500px;
+    left: 100px;
+    margin: 15px ;
+    border-radius: 18px ;
+}
+.card1{
+    position: relative;
+    
+    bottom:500px;
+    left: 100px;
+    margin: 15px ;
+    background: #242730;
+border-radius: 20px;
+color: white;
+
+}
+.card-img-top{
+    border-radius: 18px 18px 0px 0px;   
+}
+.card-body{
+    position: relative;
+
+}
+.card-img{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top:300px;
+    right: 100px;
+    border-radius: 50%;
+    width: 70px;
+}
+.card2, .card3, .card4, .card1{
+    position: relative;
+    bottom:500px;
+    left: 100px;
+    margin: 15px ;
+    border-radius: 18px ;   
+    background: #242730;
+    border-radius: 20px;
+    color: white;
+    width: 250px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .menu{
+  color: #808191;
+} */
+
+
+
+
+
+  /* Style the search box */
+/* #mySearch {
+    width: 50%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+    border-radius: 18px;
+  } */
+  
+  /* Style the navigation menu
+  #myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 50px;
+  }
+  
+  /* Style the navigation links */
+  /* #myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    display: block
+  }
+  
+  #myMenu li a:hover {
+    background-color: #eee;
+  } */ 
+  
