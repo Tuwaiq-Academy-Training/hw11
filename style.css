@@ -1,0 +1,167 @@
+body {
+    background-color:plum;
+  }
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+.header{
+	width: 1000px;
+	padding: 20px;
+	background: #7690da;
+	margin: 25px auto;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.header p{
+	font-size: 45px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+}
+
+.container .input{
+	border: 0;
+	outline: none;
+	color: #8b7d77;
+}
+
+.search_wrap{
+	width: 500px;
+	margin: 38px auto;
+}
+
+.search_wrap .search_box{
+	position: relative;
+	width: 500px;
+	height: 60px;
+}
+
+.search_wrap .search_box .input{
+	position: absolute;
+	width: 625%;
+	height: 40px;
+  padding: 10px 20px;
+  left:300px ;
+  top: 2px;
+	background: #FFFFFF;
+  opacity: 0.1;
+	border-radius: 10px;
+  font-size: 18px;
+
+}
+
+
+.offering{
+  margin: 0 5rem;
+  display: grid;
+  grid-template-columns: repeat(2,25%);
+  justify-items: left;
+  align-content:left ;
+  height: 40vh;
+}
+.im3{
+  position: absolute;
+width: 500px;
+height: 700px;
+left: 383px;
+top: 104px;
+}
+.im1{
+  position: absolute;
+width: 500px;
+height: 700px;
+left: 1533px;
+top: 176px;
+}
+.im5{
+  position: absolute;
+width: 351px;
+height: 264px;
+left: 100px;
+top: 900px;
+}
+.im7{
+  position: absolute;
+width: 303px;
+height: 171px;
+left: 865px;
+top: 900px;
+}
+.im6{
+  position: absolute;
+  width: 358px;
+  height: 238px;
+  left: 768px;
+  top: 900px;
+}
+.im8{
+  position: absolute;
+  width: 284px;
+  height: 161px;
+  left: 1403px;
+  top: 1000px;
+}
+
+
+.project{
+  background-color:plum;
+
+}
+.project .content{
+  margin-top: 30px;
+}
+
+.project-card{
+  background-color: #fff;
+  border: 1px solid #fff;
+  min-height: 14em;
+  width: 23em;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.7s ease;
+}
+.project-card:hover{
+  transform: scale(1.1);
+
+}
+.project-card:hover  .project-image{ 
+  opacity: 0.9;
+
+}
+.project-image img{
+width: 100%;
+}
+.project-info{
+padding: 1em;
+}
+.project-category{
+  font-size: 0.8em;
+  color: black;
+}
+.project-title{
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.more-details{
+  text-decoration: none;
+  color: rgb(69, 7, 69);
+
+}
+.more-details:hover{
+  color: rgb(69, 7, 69);
+}
